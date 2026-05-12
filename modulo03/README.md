@@ -1,14 +1,6 @@
-# Módulo 02 -  Instanciando objetos na cena 3D
+# Módulo 03 -  Adicionando textura
 
-Neste módulo, a geometria da pirâmide do projeto base foi substituída por um cubo, composto
-por 12 triângulos (2 por face) e 36 vértices. Cada face recebeu uma cor distinta para
-facilitar a visualização sem o uso de texturas ou iluminação.
- 
-Foram adicionados controles de translação nos três eixos (WASD para X e Z, IJ para Y)
-e de escala uniforme ([ para diminuir, ] para aumentar), mantendo a rotação original em X, Y e Z.
- 
-Por fim, foram instanciados 3 cubos na cena, cada um com transformações independentes.
-A seleção do cubo ativo é feita pelas teclas 1, 2 e 3.
+Neste módulo, o desafio proposto foi aplicar texturas a objetos 3D carregados a partir de arquivos `.obj`.
 
 # Como executar o projeto
 
@@ -85,9 +77,7 @@ build\cubo3d.exe
 
 | Tecla | Ação |
 |---|---|
-| `1` | Seleciona o cubo da esquerda |
-| `2` | Seleciona o cubo do centro |
-| `3` | Seleciona o cubo da direita |
+| `TAB` | Alterna entre os cubos |
 
 > Todas as transformações abaixo atuam sobre o cubo selecionado.
 
